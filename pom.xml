@@ -11,6 +11,8 @@
 
     <modules>
         <module>method-references</module>
+        <module>hello-world</module>
+        <module>generics</module>
     </modules>
 
     <properties>
