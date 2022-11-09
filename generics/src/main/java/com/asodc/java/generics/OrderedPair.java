@@ -1,4 +1,4 @@
-package com.asodc.java;
+package com.asodc.java.generics;
 
 public class OrderedPair<K, V> implements Pair<K, V>{
     private K key;

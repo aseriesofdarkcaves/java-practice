@@ -1,4 +1,4 @@
-package com.asodc.java;
+package com.asodc.java.generics;
 
 /**
  * Generic version of the Box class.

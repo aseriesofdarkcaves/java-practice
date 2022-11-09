@@ -1,4 +1,4 @@
-package com.asodc.java;
+package com.asodc.java.generics;
 
 public class Generics {
     public static void main(String... args) {
