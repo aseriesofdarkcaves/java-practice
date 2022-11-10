@@ -1,4 +1,4 @@
-# Generics
+# generics
 
 Text taken from the [Java Tutorials](https://docs.oracle.com/javase/tutorial/java/generics/index.html).
 
