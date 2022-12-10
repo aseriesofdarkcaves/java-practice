@@ -6,7 +6,9 @@ enum Colour {
     RED,
     GREEN;
 
+    private static final Random RANDOM = new Random();
+
     static Colour getRandom() {
-        return values()[new Random().nextInt(values().length)];
+        return values()[RANDOM.nextInt(values().length)];
     }
 }

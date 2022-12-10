@@ -13,7 +13,7 @@ class AppleUtil {
     static List<Apple> generateApples(int amount) {
         List<Apple> apples = new ArrayList<>();
         for (int i = 0; i < amount; i++) {
-            apples.add(new Apple(Colour.getRandom()));
+            apples.add(new Apple());
         }
         return apples;
     }
@@ -27,7 +27,7 @@ class AppleUtil {
     static void printAppleList(String title, List<Apple> apples) {
         System.out.println("******************** " + title + " ********************");
         for (Apple apple : apples) {
-            System.out.println(apple + " : " + apple.getColour());
+            System.out.println(apple);
         }
     }
 }
