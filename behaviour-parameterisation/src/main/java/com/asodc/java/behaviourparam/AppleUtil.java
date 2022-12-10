@@ -13,7 +13,7 @@ class AppleUtil {
     static List<Apple> generateApples(int amount) {
         List<Apple> apples = new ArrayList<>();
         for (int i = 0; i < amount; i++) {
-            apples.add(new Apple());
+            apples.add(Apple.newInstance());
         }
         return apples;
     }
