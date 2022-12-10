@@ -1,6 +1,12 @@
 package com.asodc.java.behaviourparam;
 
-public enum Colour {
+import java.util.Random;
+
+enum Colour {
     RED,
-    GREEN
+    GREEN;
+
+    static Colour getRandom() {
+        return values()[new Random().nextInt(values().length)];
+    }
 }

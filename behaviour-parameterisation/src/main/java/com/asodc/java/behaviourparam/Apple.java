@@ -1,7 +1,7 @@
 package com.asodc.java.behaviourparam;
 
-public class Apple {
-    private Colour colour;
+class Apple {
+    private final Colour colour;
 
     Apple(Colour colour) {
         this.colour = colour;
