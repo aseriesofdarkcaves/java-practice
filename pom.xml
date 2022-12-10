@@ -13,6 +13,7 @@
         <module>generics</module>
         <module>hello-world</module>
         <module>standard-streams</module>
+        <module>behaviour-parameterisation</module>
     </modules>
 
     <properties>

@@ -1,4 +1,4 @@
-package com.asodc.java;
+package com.asodc.java.hello;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
