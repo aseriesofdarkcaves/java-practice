@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 
 public class StandardStreams {
-    public static void main(String... args) {
+    public static void main(String[] args) {
         // by default, standard output is usually the console
         System.out.println("THIS IS THE STANDARD OUTPUT STREAM, WHICH IS USUALLY THE CONSOLE!");
 

@@ -7,7 +7,7 @@ import java.util.List;
  * Second attempt: parameterising the colour.
  */
 public class Attempt2 {
-    public static void main(String... args) {
+    public static void main(String[] args) {
         // Generate some apples
         List<Apple> inventory = AppleUtil.generateApples(15);
 

@@ -1,7 +1,7 @@
 package com.asodc.java.generics;
 
 public class Generics {
-    public static void main(String... args) {
+    public static void main(String[] args) {
         // Box class
         // String type argument
         Box<String> stringBox = new Box<>();

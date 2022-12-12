@@ -7,7 +7,7 @@ import java.util.List;
  * First attempt: filtering green apples.
  */
 public class Attempt1 {
-    public static void main(String... args) {
+    public static void main(String[] args) {
         // Generate some apples
         List<Apple> inventory = AppleUtil.generateApples(10);
 
