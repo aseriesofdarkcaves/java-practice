@@ -20,6 +20,12 @@ public class Attempt4 {
         // Bonus parameterised colour predicate - don't really need this, but was interested to see what it would look like
         AppleUtil.printAppleList("BONUS PARAMETERISED PREDICATE - GREEN APPLES", filterApples(inventory, new AppleColourPredicate(Colour.GREEN)));
         AppleUtil.printAppleList("BONUS PARAMETERISED PREDICATE - RED APPLES", filterApples(inventory, new AppleColourPredicate(Colour.RED)));
+
+        // Quiz 2.1 - Write a flexible prettyPrintApple method
+        System.out.println("******************** Quiz 2.1 - Write a flexible prettyPrintApple method ********************");
+        Attempt4.prettyPrintApple(inventory, new PrettyPrintWeightPredicate());
+        Attempt4.prettyPrintApple(inventory, new PrettyPrintColourPredicate());
+        Attempt4.prettyPrintApple(inventory, new PrettyPrintRelativeWeightPredicate());
     }
 
     /**
@@ -41,5 +47,23 @@ public class Attempt4 {
             }
         }
         return filteredInventory;
+    }
+
+    /**
+     * Quiz 2.1 - Write a flexible prettyPrintApple method
+     * Write a prettyPrintApple method that takes a List of Apples and that can be
+     * parameterized with multiple ways to generate a String output from an apple
+     * (a bit like multiple customized toString methods). For example, you could tell your
+     * prettyPrintApple method to print only the weight of each apple. In addition, you
+     * could tell your prettyPrintApple method to print each apple individually and mention
+     * whether it’s heavy or light.
+     *
+     * @param inventory the apple inventory to be filtered
+     */
+    public static void prettyPrintApple(List<Apple> inventory, PrettyPrintPredicate predicate) {
+        for (Apple apple : inventory) {
+            String output = predicate.getPrettyString(apple);
+            System.out.println(output);
+        }
     }
 }
