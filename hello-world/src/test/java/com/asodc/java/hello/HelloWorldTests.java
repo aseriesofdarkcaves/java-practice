@@ -15,7 +15,7 @@ public class HelloWorldTests {
         System.setOut(printStream);
 
         // call the program under test
-        HelloWorld.main();
+        HelloWorld.main(new String[]{});
 
         // assertions
         final boolean streamContainsExpectedString = outputStream.toString().contains(HelloWorld.GREETING);
