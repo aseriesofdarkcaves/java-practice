@@ -22,7 +22,7 @@ class AppleUtil {
      * Prints a list of apples.
      *
      * @param title  a title to give to the printed output
-     * @param apples the list of apples to print, along with its colour
+     * @param apples the list of apples to print
      */
     static void printAppleList(String title, List<Apple> apples) {
         System.out.println("******************** " + title + " ********************");
