@@ -39,7 +39,6 @@ class Apple {
     }
 
     /**
-     *
      * @return the colour of the apple
      */
     Colour getColour() {
@@ -47,7 +46,6 @@ class Apple {
     }
 
     /**
-     *
      * @return the weight of the apple
      */
     int getWeight() {

@@ -28,7 +28,7 @@ public class Attempt2 {
      * method.
      *
      * @param inventory the apple inventory to be filtered
-     * @param colour the colour for which apples should be filtered
+     * @param colour    the colour for which apples should be filtered
      * @return a list containing the filtered apple inventory
      */
     public static List<Apple> filterApplesByColour(List<Apple> inventory, Colour colour) {
@@ -53,7 +53,7 @@ public class Attempt2 {
      * of all your methods instead of only a single one.
      *
      * @param inventory the apple inventory to be filtered
-     * @param weight the weight for which apples should be filtered
+     * @param weight    the weight for which apples should be filtered
      * @return a list containing the filtered apple inventory
      */
     public static List<Apple> filterApplesByWeight(List<Apple> inventory, int weight) {

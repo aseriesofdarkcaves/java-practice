@@ -28,9 +28,9 @@ public class Attempt3 {
      * selection criteria for apples. Behaviour parameterisation can be used to attain flexibility.
      *
      * @param inventory the apple inventory to be filtered
-     * @param colour the colour for which apples should be filtered
-     * @param weight the weight for which apples should be filtered
-     * @param flag a magic undocumented boolean with a terrible variable name which doesn't explain what it is
+     * @param colour    the colour for which apples should be filtered
+     * @param weight    the weight for which apples should be filtered
+     * @param flag      a magic undocumented boolean with a terrible variable name which doesn't explain what it is
      * @return a list containing the filtered apple inventory
      */
     public static List<Apple> filterApples(List<Apple> inventory, Colour colour, int weight, boolean flag) {
