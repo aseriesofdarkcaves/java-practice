@@ -56,7 +56,7 @@ Therefore, `Box` is the raw type of `Box<T>`. However, a non-generic class is _n
 
 ## Generic methods
 
-Generic methods are methods that introduce their own type paremeters. The type parameter's scope is limited to the
+Generic methods are methods that introduce their own type parameters. The type parameter's scope is limited to the
 method where it is declared. Static and non-static generic methods are allowed, as well as generic class constructors.
 
 ```
