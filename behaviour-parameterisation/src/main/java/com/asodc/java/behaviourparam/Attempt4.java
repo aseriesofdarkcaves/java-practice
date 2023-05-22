@@ -56,7 +56,7 @@ public class Attempt4 {
      * (a bit like multiple customized toString methods). For example, you could tell your
      * prettyPrintApple method to print only the weight of each apple. In addition, you
      * could tell your prettyPrintApple method to print each apple individually and mention
-     * whether it’s heavy or light.
+     * whether it's heavy or light.
      *
      * @param inventory the apple inventory to be filtered
      */
