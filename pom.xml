@@ -15,6 +15,7 @@
         <module>standard-streams</module>
         <module>behaviour-parameterisation</module>
         <module>dynamic-programming</module>
+        <module>inheritance</module>
     </modules>
 
     <properties>
